@@ -1,5 +1,7 @@
 def square_array(array)
-  array.each{|i| i**2}
+  arr[]
+  array.each{|i| arr << i**2}
+  arr
 end
 
 numbers = [1,2,3]
